@@ -1,0 +1,51 @@
+\documentclass[lang=cn,11pt]{elegantbook}
+\usepackage{subfiles}
+\usepackage{siunitx}
+\usepackage{wrapfig}
+
+\newcommand{\zfootnote}[1]{\footnote{\textbf{[整理者注]} #1}}
+
+\DeclareMathOperator{\Arg}{Arg}
+
+\title{概率论基础(第三版)-整理讲义}
+\author{李贤平}
+\institute{高等教育出版社}
+\bioinfo{上次更新日期}{2026-06-22}
+
+\cover{cover0.jpg}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+\vspace*{\fill}
+
+\begin{center}
+    \textbf{声明} \\
+    本讲义根据\textbf{概率论基础(第三版)-李贤平-高等教育出版社}整理排版. 
+
+    原书著作权归原作者及出版社所有. 
+    本讲义仅用于个人学习交流, \textbf{禁止商业用途}. 
+
+    \vspace{1em}
+    整理者: HanaAsagi \\
+    \href{https://github.com/CyanYuzu}{Github: @CyanYuzu}
+\end{center}
+
+\vspace*{\fill}
+
+\tableofcontents
+
+\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\subfile{./chapters/chapter1/chapter1.tex}
+
+\end{document}

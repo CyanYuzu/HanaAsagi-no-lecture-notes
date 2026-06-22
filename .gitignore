@@ -48,6 +48,9 @@ rubber.cache
 # latexrun
 latex.out/
 
+## ElegantBook Template
+ElegantBook Template/
+
 ## Auxiliary and intermediate files from other packages:
 # algorithms
 *.alg
