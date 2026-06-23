@@ -1,7 +1,16 @@
-\documentclass[lang=cn,11pt]{elegantbook}
+\documentclass[lang=cn,11pt,blue,thmcnt=section]{elegantbook}
 \usepackage{subfiles}
 \usepackage{siunitx}
 \usepackage{wrapfig}
+
+\counterwithin{figure}{section}
+\counterwithin{equation}{section}
+\counterwithin{exam}{section}
+\counterwithin{exer}{section}
+\counterwithin{prob}{section}
+
+\newtcolorbox{myquote}{colback=cyan!5!white, colframe=cyan!75!black,
+  title=整理者注}
 
 \newcommand{\zfootnote}[1]{\footnote{\textbf{[整理者注]} #1}}
 
